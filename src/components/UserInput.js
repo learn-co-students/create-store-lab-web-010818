@@ -13,6 +13,10 @@ class UserInput extends Component {
       type: "ADD_USER",
       user: this.state
     })
+    this.setState({
+      username : "",
+      hometown: ""
+    })
   }
 
   handleChange = (event) => {
